@@ -1,0 +1,36 @@
+/* =========================================================
+   Isibindi Haven — style.css
+   NOTE: This is a placeholder base stylesheet for Part 1.
+   Full CSS styling (layout, typography, colour scheme,
+   responsive design) will be implemented in Part 2.
+   ========================================================= */
+
+/* Basic reset so the unstyled HTML is still readable during Part 1 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #222;
+}
+
+header, nav, main, footer {
+  display: block;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isibindi Haven | Get Involved</title>
+  <meta name="description" content="Enquire about volunteering or sponsoring a programme at Isibindi Haven.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Isibindi Haven</h1>
+    <p>Restoring dignity, one step at a time.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="programmes.html">Our Programmes</a></li>
+      <li><a href="enquiry.html">Get Involved</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="enquiry-intro">
+      <h2>Volunteer or Sponsor Enquiry</h2>
+      <p>
+        Fill in the form below to enquire about volunteering your time or
+        sponsoring one of our programmes. A member of our team will get back
+        to you with details on cost, availability, and next steps.
+      </p>
+      <!--
+        NOTE (Part 1): This form is structural only for now — HTML5 validation
+        attributes and JavaScript-based validation/response handling will be
+        added in Part 3 as per the assignment brief.
+      -->
+    </section>
+
+    <section id="enquiry-form">
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Your Details</legend>
+
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+        </fieldset>
+
+        <fieldset>
+          <legend>Enquiry Type</legend>
+
+          <label for="enquiry-type">I would like to:</label>
+          <select id="enquiry-type" name="enquiry-type" required>
+            <option value="">-- Please select --</option>
+            <option value="volunteer">Become a Volunteer</option>
+            <option value="sponsor">Become a Sponsor</option>
+            <option value="other">Other Enquiry</option>
+          </select>
+
+          <label for="programme">Which programme interests you?</label>
+          <select id="programme" name="programme">
+            <option value="">-- Please select --</option>
+            <option value="soup-kitchen">Soup Kitchen</option>
+            <option value="mobile-clinic">Mobile Health Clinic</option>
+            <option value="second-chance">Second Chance Programme</option>
+            <option value="general">General / Not Sure Yet</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your Message</legend>
+          <label for="message">Tell us a bit more:</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+        </fieldset>
+
+        <button type="submit">Submit Enquiry</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Isibindi Haven. All rights reserved.</p>
+    <p>123 Hope Street, Durban CBD, 4001</p>
+    <ul>
+      <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+      <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
